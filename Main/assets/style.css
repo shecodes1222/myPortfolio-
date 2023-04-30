@@ -1,71 +1,111 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 header {
-    padding: 40px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-  }
+  padding: 40px;
+  text-align: center;
+  background: dimgray;
+  color: #fff;
+  padding: 2%
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightblue;
+  color: dimgray;
+  font-size: xx-large;
+  margin-right: 80%;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.nav-list li a {
+  color: lightblue;
+}
+
+.second-nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: darkblue;
+  padding: 5% 
+}
+
+.second-nav h2{
+  background-color: lightblue;
+  font-size: xx-large;
+  color: dimgray;
+}
 
 
 
-  main{
-    display:flex;
-    flex-wrap: wrap;
-  }
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
-  
-  footer {
-    padding: 20px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-  }
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
 
 .information {
-        flex: 4;
-        background-color: #fff;
-        padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
+  flex: 4;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
-  .card {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
-    padding: 10px;
-    flex: 0 0 400px;
-  }
-  
-  .card header {
-    padding: 20px;
-  }
-  
-  .card p {
-    text-align: center;
-  }
-  
-  .card img {
-    width: 100%;
-  }
-  
-  
+.card {
+  display: flex;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 400px;
+}
+
+.card header {
+  padding: 20px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  display:flex;
+  flex-wrap: wrap;
+  flex-shrink: inherit;
+  margin: 2%;
+}
 
 
 
 
-@media screen and (max-width: 768px) {
+
+
+  @media screen and (max-width: 768px) {
+
     main,
     nav {
       flex-direction: column;
