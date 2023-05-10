@@ -10,7 +10,7 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: dimgray;
+  background: #13293d;
   color: #fff;
   padding: 2%
 }
@@ -18,11 +18,13 @@ header {
 h1 {
   display: flex;
   justify-content: flex-start;
-  background-color: lightblue;
-  color: dimgray;
+  color: rgb(255, 255, 255);
   font-size: xx-large;
   margin-right: 80%;
 }
+
+
+
 
 .nav-list {
   display: flex;
@@ -40,14 +42,13 @@ h1 {
 .second-nav {
   display: flex;
   justify-content: flex-end;
-  background-color: darkblue;
-  padding: 5% 
+  background-color: rgb(92, 92, 97);
+  padding: 1%;
 }
 
 .second-nav h2{
-  background-color: lightblue;
   font-size: xx-large;
-  color: dimgray;
+  color: rgb(253, 253, 253);
 }
 
 
@@ -64,6 +65,8 @@ footer {
   text-align: center;
   background: #13293d;
   color: #fff;
+  height:327px;
+  position:sticky;
 }
 
 .information {
@@ -94,9 +97,11 @@ footer {
 
 .card img {
   display:flex;
-  flex-wrap: wrap;
-  flex-shrink: inherit;
-  margin: 2%;
+border-style: dotted;
+max-width: 100%;
+position: relative;
+align-items: center;
+  
 }
 
 
