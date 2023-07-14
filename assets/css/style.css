@@ -51,7 +51,10 @@ h1 {
   color: rgb(253, 253, 253);
 }
 
-
+.style-self {
+  display: flex;
+  width: 500px;
+}
 
 main {
   display: flex;
@@ -97,10 +100,9 @@ footer {
 
 .card img {
   display:flex;
-border-style: dotted;
-max-width: 100%;
+width: 350px;
 position: relative;
-align-items: center;
+align-items:flex-start
   
 }
 
