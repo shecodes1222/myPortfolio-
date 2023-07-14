@@ -10,21 +10,25 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
+  background: dimgray;
   color: #fff;
   padding: 2%
+}
+
+.image-self {
+  display: flex;
+  align-items: flex-start;
+  width: 500px;
 }
 
 h1 {
   display: flex;
   justify-content: flex-start;
-  color: rgb(255, 255, 255);
+  background-color: lightblue;
+  color: dimgray;
   font-size: xx-large;
   margin-right: 80%;
 }
-
-
-
 
 .nav-list {
   display: flex;
@@ -42,20 +46,17 @@ h1 {
 .second-nav {
   display: flex;
   justify-content: flex-end;
-  background-color: rgb(92, 92, 97);
-  padding: 1%;
+  background-color: darkblue;
+  padding: 5% 
 }
 
 .second-nav h2{
+  background-color: lightblue;
   font-size: xx-large;
-  color: rgb(253, 253, 253);
+  color: dimgray;
 }
 
-.image-self {
-  display: flex;
-  align-items: flex-start;
-  width: 500px;
-}
+
 
 main {
   display: flex;
@@ -69,8 +70,6 @@ footer {
   text-align: center;
   background: #13293d;
   color: #fff;
-  height:327px;
-  position:sticky;
 }
 
 .information {
@@ -100,11 +99,10 @@ footer {
 }
 
 .card img {
-  display:flex;
+display: flex;
 width: 350px;
-position: relative;
-align-items:flex-start;
-  
+position:relative;
+align-items:flex-start
 }
 
 
